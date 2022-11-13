@@ -1,11 +1,9 @@
 <p align="center">
-  <a href="https://imgbb.com/"><img src="https://i.ibb.co/V30KnKC/apple-touch-icon-Copy.png" width="60" alt="apple-touch-icon-Copy" border="0"></a>
+  <a href="#"><img src="https://github.com/mza-codes/minimal-react/blob/62fd10162f49d62abf1aa6b4ec1d5fadbab4a38f/public/logo.png" width="50" alt="apple-touch-icon-Copy" border="0"></a>
   <br />
   <h3 align="center">Alternative to Create React App</h3>
-
+  <p align="center"> Integrated With <strong>tailwindcss!</strong> </p>
   <p align="center">
-  <b> Integrated With tailwindcss! </b>
-  <br />
     <b> Added Extra Fonts Including Poppins!</b>
     <br />
     <b> Based on Yarn, Added Axios & Router-Dom!</b>
