@@ -1,23 +1,25 @@
+import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import './app.css';
 
 const App = () => {
+
     return (
-        <div className='app'>
-            <div className="container">
-                <div className='min-h-full h-screen bg-gradient-to-bl from-green-400 to-blue-500'>
-                    <div className='items-center justify-center content-center flex flex-col text-center'>
-                        <h1 className='font-poorStory text-6xl py-2'>Hello World</h1>
-                        <h2 className='text-5xl py-3'> A Start</h2>
-                        <div className='h-auto py-5 mx-3 bg-slate-800 text-slate-200 rounded-lg shadow-2xl flex flex-col items-center justify-center content-center'>
-                            <p className='font-righteous max-w-md'>
-                            The container class sets the max-width of an element to match the min-width of the current breakpoint. This is useful if you’d prefer to design for a fixed set of screen sizes instead of trying to accommodate a fully fluid viewport.
-                            </p>
-                            <p className='font-kanit'>-tailwind</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <Box bgGradient='linear(to-r, gray.300, yellow.400, pink.200)'>
+
+            <Flex direction='column' alignItems={"center"} justifyContent="center" textAlign={"center"} h={"100vh"}>
+                <Heading fontSize={"4xl"} >Welcome to </Heading>
+                <Text fontSize={"8xl"} fontWeight={800}>Chakra UI</Text>
+                <Box textStyle={"h1"}>I am Box in H1 text </Box >
+                <Box textStyle={"h2"}>I am Box in H2 text </Box >
+                <Box textStyle={"h3"}>I am Box in H3 text </Box >
+                <Box textStyle={"h4"}>I am Box in H4 text </Box >
+                <Box textStyle={"h5"}>I am Box in H5 text </Box >
+                <Box textStyle={"h6"}>I am Box in H6 text </Box >
+                <Text fontSize="4xl" fontWeight={500}>Feel free to use ! </Text>
+            </Flex>
+            
+        </Box>
+
     )
 };
 
